@@ -1,12 +1,11 @@
 # Fundamentos de la Ciencia de Datos 
+Carla Solis Uehara  
+Agosto 2026
 
 
 ## Sesión 0 : Cómo utilizar Github   <sup>[1](#myfootnote1)</sup>
-### Agosto 2026
 
 <a name="myfootnote1">1</a> Este material se basa fuertemente en los entrenamientos de [DIME](https://github.com/worldbank/dime-github-trainings), del World Bank. Gracias por la licencia MIT.
-
-
 
 
 
@@ -34,16 +33,15 @@ Como observador:
 
 Como contribuidor: 
 - Personal
-    - Clonar proyectos. 
+    - Clonar y forkear proyectos. 
     - Crear y publicar repos propios con Github Desktop. 
     - Realizar cambios y mejoras, y poder subir estos cambios. 
 
 - Equipo: 
     - Descargar un repo de Github y poder trabajar con él. 
     - Crear un espacio en el repo del proyecto en el que tú puedas trabajar. 
-    - Trabajar con ramas, abrir Pull Requests y resolver conflictos de merge. 
-
-- Realizar cambios y mejoras al proyecto, y poder subir esos cambios. 
+    - Trabajar con ramas, abrir Pull Requests.  
+    - Realizar cambios y mejoras al proyecto, y poder subir esos cambios. 
 
 
 ## ¿Qué es Git y Github?
@@ -81,8 +79,8 @@ Entiende y sigue instrucciones del administrador del repo.
 - E inclusive del "Documento_final_final_finalísimo.docx"
 
 - Nuestra solución común es llamar al documento 
-    - Paper_for_review_csu_200321.docx
-    - Paper_for_review_csu_200321_ae_comments.docx
+    - Paper_for_review_csu_200326.docx
+    - Paper_for_review_csu_200326_csu_comments.docx
 
 - Github trackea no solo las iniciales y la hora, sino cada edición hecha al documento. 
 
@@ -126,6 +124,7 @@ Tambien tenemos otras opciones, como agregar una descripción del repo, volverlo
 ### ¿Qué guardar en un repo?
 Lo más recomendable es almacenar **solamente** archivos de código. Archivos de datos (bases de datos, pdfs, etc) idealmente deberían ir en otro folder.
 
+Notas: ¿Cómo creamos un repo desde Github desktop?
 
 ## 1. Commit 
 
@@ -177,29 +176,39 @@ Clonar es similar a descargar un repositorio.
 La diferencia entre clonar y descargar es que **Github recuerda de dónde descargamos el repositorio**. Esto es necesario para saber a dónde mandar nuestros cambios cuando seamos contribuidores. 
 
 ### Cómo clonar un repo
-1. Ve a https://github.com/ccsuehara/python_para_las_ccss
+1. Ve a https://github.com/ccsuehara/letras_ago2026
 2. Haz click en el botón verde que dice *Code*
 3. Dale click en *Open with Github Desktop*
 4. Selecciona la carpeta de tu computadora donde se clonará el repo. **NO** lo clones en una carpeta compartida de Dropbox, Box, etc. 
 
-Finalmente, explora el folder clonado! Compáralo con lo que viste en Github. 
+Finalmente, explora el folder clonado. Compáralo con lo que viste en Github. 
 
 Cada vez que haya una actualización en el repo del curso, puedes hacer un git pull de los nuevos cambios. 
 
 ##### ¿Cuál es la diferencia con el fork? 
+El fork es una copia (directa del servidor) de un repositorio que ahora existe bajo tu usuario. Sin embargo, github mantiene la relación con el repositorio original (o upstream), con lo que puedes hacer pull requests. 
 
+En palabras de github: 
+"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project".
 
+Cuando no tengas permiso de escritura, la idea es poder hacer un fork y luego un clone. 
+
+- Hacemos fork a https://github.com/ccsuehara/fundamentos-2026
+- Clonamos el fork. 
+Cuando hayan nuevos cambios, ve a la url de tu fork en Github y dale click a "Sync fork".    
+- Dale click a Update branch.   
+- Dale pull desde tu github desktop.   
+
+Recomendación final: Crea una rama propia donde puedas hacer las modificaciones de los archivos con tus propias anotaciones. Mantén la principal tan sólo para descargar el material. (Veamos las ramas más abajo!). 
 
 #### ¿Qué es un git pull?
 - El git pull es la acción de subir los cambios del repo remoto al repo local, de manera que ambos se sincronizan.
 
 
 
-6. Listo, ya tienes un folder asociado a un repo en tu computadora. Intenta hacer tu primer commit y verifica que 
-
-OJO: NO OLVIDAR DE HACER COMMIT CONSTANTEMENTE A SU TRABAJO   
-OJO 2: NO OLVIDAR SINCRONIZAR DESPUES DE HACER COMMIT!
-
+6. Listo, ya tienes un folder asociado a un repo en tu computadora. Intenta hacer tu primer commit y verifica
+OJO: No olvides hacer commit constante a tu trabajo.   
+OJO 2: No olvides hacer la sincronización después
 
 
 ## Adicionales
