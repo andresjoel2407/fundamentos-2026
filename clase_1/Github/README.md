@@ -270,9 +270,23 @@ Es común que el acceso a la rama *main* solo la tenga el repo maintainer (no to
 <br> <br/>
 
 ## Actividad: Crea un repo de proyecto 
-Crea la siguiente estructura para tu proyecto: 
+Crea un nuevo repo con la siguiente estructura:
 
+mi-super-proyecto/ 
+│
+├── datos/  
+│ ├── raw/  
+│ ├── intermedio/  
+│ └── procesados/  
+│
+├── notebooks/  
+├── scripts/  
+├── outputs/  
+├── documentacion/  
+└── README.md  
 
+Investiga más sobre el comando `mkdir` en la terminal/shell.  
+Nota: Más adelante explicaremos esta estructura a mayor detalle. 
 
 ## Otros recursos de aprendizaje: 
 
