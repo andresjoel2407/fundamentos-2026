@@ -272,8 +272,8 @@ Es común que el acceso a la rama *main* solo la tenga el repo maintainer (no to
 ## Actividad: Crea un repo de proyecto 
 Crea un nuevo repo con la siguiente estructura:
 
-mi-super-proyecto/ 
-│
+mi-super-proyecto/   
+│  
 ├── datos/  
 │ ├── raw/  
 │ ├── intermedio/  
